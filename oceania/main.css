@@ -1,0 +1,173 @@
+/*.australia{
+    margin: 1%;
+    align-items: center;
+    width: 96%;
+    height: 30vh;
+    vertical-align: middle;
+
+    --c: #f4d4be; 
+    --b: 10px;    
+    --g: 5px;     
+    padding: calc(var(--g) + var(--b));
+    --_g: #0000 25%,var(--c) 0;
+    background: 
+      conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
+       var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
+      conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
+       0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
+    transition: .5s, background-position .5s .5s;
+    cursor: pointer;
+}
+.aus_img{
+    display:flex;
+    float: left;
+    background-image: url("./Lamingtons.webp");
+
+}
+.name1{
+    float: right;
+    width: 49%;
+    height: 100%;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px #999999;
+    vertical-align: middle;
+    text-align: center;
+}
+.australia:hover {
+    --_i: 100%;
+    transition: .5s, background-size .5s .5s;
+}
+
+.newzealand{
+    margin: 1%;
+    align-items: center;
+    width: 96%;
+    height: 30vh;
+    vertical-align: middle;
+
+    --c: #f4d4be; 
+    --b: 10px;    
+    --g: 5px;     
+    padding: calc(var(--g) + var(--b));
+    --_g: #0000 25%,var(--c) 0;
+    background: 
+      conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
+       var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
+      conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
+       0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
+    transition: .5s, background-position .5s .5s;
+    cursor: pointer;
+}
+.nz_img{
+    display:flex;
+    float: left;
+    width: 30%;
+    height: 100%;
+
+}
+.name2{
+    float: right;
+    width: 49%;
+    height: 100%;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px #999999;
+    vertical-align: middle;
+    text-align: center;
+}
+.newzealand:hover {
+    --_i: 100%;
+    transition: .5s, background-size .5s .5s;
+}
+  
+.palau{
+    margin: 1%;
+    align-items: center;
+    width: 96%;
+    height:30vh;
+    vertical-align: middle;
+
+    --c: #f4d4be; 
+    --b: 10px;    
+    --g: 5px;     
+    padding: calc(var(--g) + var(--b));
+    --_g: #0000 25%,var(--c) 0;
+    background: 
+      conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
+       var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
+      conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
+       0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
+    transition: .5s, background-position .5s .5s;
+    cursor: pointer;
+}
+.p_img{
+    display:flex;
+    float: left;
+    width: 50%;
+    height:100%;
+
+}
+.name3{
+    float: right;
+    width: 49%;
+    height: 100%;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px #999999;
+    vertical-align: middle;
+    text-align: center;
+}
+.palau:hover {
+    --_i: 100%;
+    transition: .5s, background-size .5s .5s;
+  }*/
+
+
+  div.country{
+    padding-top: 5%;
+    padding-left: 10%;
+    
+}  
+  
+div.map img{
+    position: absolute;
+    width: 100%;
+}
+
+div.gallery img {
+    position: relative;
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+}
+
+div.aus_img img{
+    position: absolute;
+    top: 48%;
+    left: 35%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+div.nz_img img{
+    position: absolute;
+    top: 80%;
+    left: 66%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+div.p_img img{
+    position: absolute;
+    top: 7%;
+    left: 30%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+div.gallery img:hover  {
+    opacity: 0.5;
+}
+
+  

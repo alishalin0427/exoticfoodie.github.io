@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blind box</title>
+    <!-- <link rel="stylesheet" href="./1home/header_css/box.css"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./1home/header_css/box.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="box_container">
+    <div class="flex-item_box">
+        <div class="flex-item2_box">
+            <div class="item1"><a href="index.html"><img src="1image/header_img.png" alt="" class="header_img_box"></a></div>
+            <div class="item2"><h1 class="header_font-box">Exotic Foodie</h1></div>
+        </div>
+        <div class="flex-item3-box">
+            <div class="item"></span><a href="index.html"><span class="material-symbols-outlined">home</a></div>
+        </div>
+    </div>
+    <div class="container_box">
+        <img src="./1image/ghost02.png" alt=""class="box_img">
+        <div class="title">
+            <h1>今天想~來點什麼？</h1>
+        </div>
+        <div><p class="start"><button onclick="startLottery()">start</button></p></div>
+        <div id="result" class="box_result"></div>
+        <div id="resultText" class="resultText"><p></p></div>
+        <div id="moreinformation" class="moreinformation"></div>
+    </div>
+    <div class="contact_box"><b>contact information:</b>exotic_foodie@gmail.com</div>
+    </div>
+        <script src="script.js"></script>
+
+    <script>
+        function startLottery() {
+        var items = [
+            { name: '大洋洲-紐西蘭', image: '',htmlfile:'nz.html'}, 
+            { name: '大洋洲-澳洲', image: '' ,htmlfile:'australia.html'},
+            { name: '大洋洲-帛琉', image: '' ,htmlfile:'palau.html'},
+            { name: '北美洲-加拿大', image: '' ,htmlfile:'canada.html'},
+            { name: '北美洲-墨西哥', image: '' ,htmlfile:'mexico.html'},
+            { name: '北美洲-美國', image: '' ,htmlfile:'usa.html'},
+            { name: '南美洲-巴西', image: '' ,htmlfile:'brazil.html'},
+            { name: '南美洲-祕魯', image: '' ,htmlfile:'peru.html'},
+            { name: '南美洲-智利', image: '' ,htmlfile:'chile.html'},
+            { name: '非洲-埃及', image: '' ,htmlfile:'egypt.html'},
+            { name: '非洲-南非', image: '' ,htmlfile:'southafrica.html'},
+            { name: '非洲-摩洛哥', image: '' ,htmlfile:'morocco.html'},
+            { name: '亞洲-菲律賓', image: '' ,htmlfile:'philipine.html'},
+            { name: '亞洲-孟加拉', image: '' ,htmlfile:'bangladesh.html'},
+            { name: '亞洲-哈薩克', image: '' ,htmlfile:'kazakhstan.html'},
+            { name: '亞洲-約旦', image: '' ,htmlfile:'jordan.html'},
+            { name: '亞洲-蒙古', image: '' ,htmlfile:'mongolia.html'},
+            { name: '歐洲-德國', image: '' ,htmlfile:'germany.html'},
+            { name: '歐洲-義大利', image: '' ,htmlfile:'italy.html'},
+            { name: '歐洲-葡萄亞', image: '' ,htmlfile:'portugal.html'},
+            { name: '歐洲-荷蘭', image: '' ,htmlfile:'netherlands.html'},
+            { name: '歐洲-西班牙', image: '' ,htmlfile:'spain.html'}
+        ];
+        var resultElement = document.getElementById('result');
+            var resultTextElement = document.getElementById('resultText');
+            var moreInformationElement = document.getElementById('moreinformation');
+            var randomIndex = Math.floor(Math.random() * items.length);
+            var randomItem = items[randomIndex];
+            resultElement.textContent = randomItem.name;
+            var linkElement = document.createElement('button');
+            linkElement.textContent = '查看更多';
+            linkElement.onclick = function() {
+                window.location.href = randomItem.htmlfile;
+            };
+            // linkElement.href = randomItem.htmlfile;
+
+            moreInformationElement.innerHTML = '';
+            moreInformationElement.appendChild(linkElement);
+}       
+    </script>
+</body>
+</html>

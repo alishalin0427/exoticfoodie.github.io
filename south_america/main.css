@@ -1,0 +1,51 @@
+div.country{
+    padding-top: 5%;
+    padding-left: 10%;
+    
+}  
+  
+div.map img{
+    position: absolute;
+    width: 100%;
+}
+
+div.gallery img {
+    position: relative;
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+div.brazil_img img{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+div.peru_img img{
+    position: absolute;
+    top: 20%;
+    left: 26%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+div.chile_img img{
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+div.gallery img:hover  {
+    opacity: 0.5;
+}
+
+  
