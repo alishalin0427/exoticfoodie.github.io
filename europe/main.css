@@ -1,0 +1,69 @@
+div.country{
+    padding-top: 5%;
+    padding-left: 10%;
+    
+}  
+  
+div.map img{
+    position: absolute;
+    width: 100%;
+}
+
+div.gallery img {
+    position: relative;
+    width: 15%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+div.netherlands_img img{
+    position: absolute;
+    top: 42%;
+    left: 18%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+div.portugal_img img{
+    position: absolute;
+    top: 66%;
+    left: 10%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+div.germany_img img{
+    position: absolute;
+    top: 55%;
+    left: 33%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+div.spain_img img{
+    position: absolute;
+    top:86%;
+    left: 19%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+div.italy_img img{
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+div.gallery img:hover  {
+    opacity: 0.5;
+}
+
+  

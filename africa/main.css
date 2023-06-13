@@ -1,0 +1,49 @@
+div.country{
+  padding-top: 5%;
+  padding-left: 10%;
+  
+}  
+
+div.map img{
+  position: absolute;
+  width: 100%;
+}
+
+div.gallery img {
+  position: relative;
+  width: 20%;
+  height: auto;
+  border-radius: 10px;
+}
+
+div.egypt_img img{
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+div.southafrica_img img{
+  position: absolute;
+  top: 85%;
+  left: 45%;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+div.morocco_img img{
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+div.gallery img:hover  {
+  opacity: 0.5;
+}
+

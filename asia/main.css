@@ -1,0 +1,68 @@
+div.country{
+    padding-top: 5%;
+    padding-left: 10%;
+    
+}  
+  
+div.map img{
+    position: absolute;
+    width: 100%;
+}
+
+div.gallery img {
+    position: relative;
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+}
+
+div.kazakhstan_img img{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+div.mongolia_img img{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+div.jordan_img img{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+div.philipine_img img{
+    position: absolute;
+    top: 60%;
+    left: 65%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+div.bangladesh_img img{
+    position: absolute;
+    top: 65%;
+    left: 42%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+div.gallery img:hover  {
+    opacity: 0.5;
+}
+
+  
