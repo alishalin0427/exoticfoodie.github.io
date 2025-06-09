@@ -1,5 +1,5 @@
 <h1>Exotic Foodie</h1><br />
-![螢幕擷取畫面 2025-06-09 151647](https://github.com/user-attachments/assets/3a20e981-86d2-4587-b720-6dafea1bbf5d) <br />
+![image](https://github.com/user-attachments/assets/3a20e981-86d2-4587-b720-6dafea1bbf5d) <br />
 大一下基礎程式設計(二)小組期末作業<br />
 TechStack: <br />
 HTML, CSS <br />
